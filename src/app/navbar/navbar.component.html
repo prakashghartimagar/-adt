@@ -1,0 +1,116 @@
+<nav class="header">
+  <div class="header-wrapper">
+    <div class="logo-div">
+      ATG.<span class="logo-span"
+        >W<img src="../../assets/images/Union 1.png" />RLD</span
+      >
+    </div>
+    <div class="search">
+      <i class="fas fa-search"></i>
+      <input
+        class="search-bar"
+        placeholder="Search for your favorite groups in ATG"
+      />
+    </div>
+    <div
+      class="right-text"
+      data-bs-toggle="modal"
+      data-bs-target="#exampleModal"
+    >
+      Create account. <span>It's free!</span>
+    </div>
+  </div>
+</nav>
+
+<!-- Modal -->
+<div
+  class="modal fade"
+  id="exampleModal"
+  tabindex="-1"
+  aria-labelledby="exampleModalLabel"
+  aria-hidden="true"
+>
+  <div class="modal-dialog modal-lg modal-dialog-centered">
+    <div class="modal-content">
+      <div class="modal-header">
+        <div class="alert alert-success w-100 alert-text" role="alert">
+          Let's learn, share & inspire each other with our passion for computer
+          engineering. Sign up now 🤘🏼
+        </div>
+        <div  class="btn-closed" data-bs-dismiss="modal" aria-label="Close">
+          <i class="fas fa-xmark"></i>
+        </div>
+      </div>
+      <div class="modal-body">
+        <div class="row modal-row">
+          <div class="col-5 modal-left">
+            <h5 class="account-title">Create Account</h5>
+            <div class="fields">
+              <div class="username d-flex">
+                <input
+                  type="text"
+                  class="firstname w-50"
+                  placeholder="First Name"
+                />
+
+                <input
+                  type="text"
+                  class="lastname w-50"
+                  placeholder="Last Name"
+                />
+              </div>
+              <input
+                type="email"
+                class="w-100 email rounded-0"
+                placeholder="Email"
+              />
+              <input
+                type="password"
+                class="w-100 password rounded-0"
+                placeholder="Password"
+              />
+              <input
+                type="password"
+                class="w-100 c-password rounded-top-0"
+                placeholder="Confirm Password"
+              />
+            </div>
+
+            <button class="create-acc-btn">Create Account</button>
+
+            <div class="card text-center py-3 mt-3">
+              <div
+                class="wrapper d-flex align-items-center gap-3 justify-content-center"
+              >
+                <div>
+                  <i class="fa-brands fa-facebook" style="color: #0d58d9"></i>
+                </div>
+                <div class="card-text">Sign up with facebook</div>
+              </div>
+            </div>
+
+            <div class="card text-center py-3 mt-3">
+              <div
+                class="wrapper d-flex align-items-center gap-3 justify-content-center"
+              >
+                <div>
+                  <img src="../../assets/images/google.png" width="20px">
+                </div>
+                <div class="card-text">Sign up with Google</div>
+              </div>
+            </div>
+          </div>
+          <div class="col-7 modal-right">
+            <p>Already have an account? <span>Sign In</span></p>
+            <img src="../../assets/images/undraw_sign_up_n6im.svg">
+            <div class="terms">By signing up, you agree to our Terms & conditions, Privacy policy</div>
+          </div>
+        </div>
+      </div>
+      <!-- <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Save changes</button>
+      </div> -->
+    </div>
+  </div>
+</div>
